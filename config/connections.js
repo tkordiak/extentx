@@ -92,4 +92,13 @@ mlabMongo:{
   url: 'mongodb://admin:AzTs1342@ds157702.mlab.com:57702/extent'
 }
 
+extent2: {
+    adapter: 'sails-mongo',
+    host: 'ds157702.mlab.com', // host where MongoDB is running
+    user: 'admin'
+    password:'AzTs1342'
+    port: 57702, // port where MongoDB is running
+    database: 'extent'
+  },
+
 };
